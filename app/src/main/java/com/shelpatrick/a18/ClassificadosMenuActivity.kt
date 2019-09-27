@@ -18,7 +18,7 @@ class ClassificadosMenuActivity : AppCompatActivity() {
 
 
         var produtos = arrayListOf("ESCOLHA UMA DAS OPÇÕES ", "Alimentos","Autos","Doacào",
-            "Emprego","Imovéis ","Produtos","Servicos","outros")
+            "Emprego","Imovéis ","Pet","Produtos","Servicos","outros")
         produto.adapter=ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item,produtos)
 
         BtnVoltarDosClassificados.setOnClickListener {
